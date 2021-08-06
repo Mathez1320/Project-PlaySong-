@@ -10,21 +10,19 @@ font-family:Raleway, sans-serif, Arial;
 
 #Div-Central-Container{
 width:100%;
-height:800px;
+height:100vh;
 display: flex;
 justify-content: center;
-
 }
 
 .Div-Segundaria-Container{
 
     width:70%;
-    height:70%;
+    height:80%;
     background:linear-gradient( 60deg,#FE2EF7,#00BFFF,#00BFFF);
     margin-top:70px;
     display: flex;
     flex-flow: column wrap;
-    /*Dógico para Borda */
     
     border:0,8px solid black;
     border-radius: 20px;
@@ -44,10 +42,6 @@ flex:1;
 width:80%;
 height:50%;
 margin:10px; 
-
-/*Dógico para Borda */
-    
-
 border-radius: 20px;
 display: flex;
 flex-flow: row;
@@ -55,16 +49,11 @@ flex-flow: row;
 
 
 .Header-Menu-02{
-    flex:3;
-    width:80%;
-    height:50%;
-    margin:10px;
-
-
-     /*Dógico para Borda */
-    
-    
-     border-radius: 20px;
+flex:3;
+width:60%;
+height:50%;
+margin:10px;
+border-radius: 20px;
 }
 
 .Usuario-Header-Menu{
@@ -84,10 +73,10 @@ padding-top: -30px;
 }
 
 ul,li{
-margin:10px;
-padding:5px;
+margin:5px;
+padding:15px;
 color:#ccc;
-list-style-type: none;
+
 }
 
 .fa{
@@ -110,11 +99,12 @@ margin-right: 10px;
 }
 
 input[type="search"]{
-width:150px;
+width:350px;
 height:30px;
 border-radius: 30px;
-border: 1px solid black;
-background-color: rgba(186, 186, 228, 0.1);
+border: 2px solid white;
+
+outline: 0;
 
 }
 
@@ -164,29 +154,36 @@ padding: 0px;
 
 button{
 border: 1px solid white;
-background-color: #ccc;
-color:white;
+background-color:white;
+color:#FE2EF7;
 border-radius: 20px;
-width: 60px;
-height:30px;
+width:12rem;
+height:4.0rem;
 cursor: pointer;
+position: relative;
+bottom:100px;
+left:280px;
+font-size:20px;
 }
 
 
 
 .Main-Contaier-div3{
 width:100%;
-height:250px;
+height:450px;
 display: flex;
 flex-flow: row;
 justify-content: center;
 margin:30px 0px 0px 5px;
+position:relative;
+top:-50px; 
+right: 0px;
 }
 
 section{
 margin:5px;
-width:50%;
-height:200px;
+width:60%;
+height:350px;
 }
 
 .fa-heart-o{
