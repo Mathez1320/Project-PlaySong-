@@ -1,0 +1,202 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+background:linear-gradient( 60deg,#F781D8,#00BFFF,#58ACFA);
+margin:0px;
+padding: 0;
+box-sizing: border-box;
+font-family:Raleway, sans-serif, Arial;
+}
+
+#Div-Central-Container{
+width:100%;
+height:800px;
+display: flex;
+justify-content: center;
+
+}
+
+.Div-Segundaria-Container{
+
+    width:70%;
+    height:70%;
+    background:linear-gradient( 60deg,#FE2EF7,#00BFFF,#00BFFF);
+    margin-top:70px;
+    display: flex;
+    flex-flow: column wrap;
+    /*Dógico para Borda */
+    
+    border:0,8px solid black;
+    border-radius: 20px;
+
+}
+
+#Header-Container-Menu{
+display: flex;
+flex-flow: column nowrap;
+width:30%;
+height:100%;
+border-right:1px solid#00BFFF;
+}
+
+.Header-Menu-01{
+flex:1;
+width:80%;
+height:50%;
+margin:10px; 
+
+/*Dógico para Borda */
+    
+
+border-radius: 20px;
+display: flex;
+flex-flow: row;
+}
+
+
+.Header-Menu-02{
+    flex:3;
+    width:80%;
+    height:50%;
+    margin:10px;
+
+
+     /*Dógico para Borda */
+    
+    
+     border-radius: 20px;
+}
+
+.Usuario-Header-Menu{
+width:80px;
+height:80px;
+border-radius: 50px;
+margin:10px 0px 0px 10px;
+cursor: pointer;
+}
+
+.Texto-Header-Menu2{
+margin:50px 0px 0px 10px;
+color:#ccc;
+font-size: 12px;
+border-radius: 10px;
+padding-top: -30px;
+}
+
+ul,li{
+margin:10px;
+padding:5px;
+color:#ccc;
+list-style-type: none;
+}
+
+.fa{
+cursor: pointer;
+}
+li{
+border: none;
+border-radius: 10px;
+font-size:12px;
+cursor:pointer;
+}
+
+li:hover{
+background-color: #2E2E2E;
+opacity: 0.4;
+}
+
+.fa{
+margin-right: 10px;
+}
+
+input[type="search"]{
+width:150px;
+height:30px;
+border-radius: 30px;
+border: 1px solid black;
+background-color: rgba(186, 186, 228, 0.1);
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------/*
+
+/*Comentário Código Main*/
+
+
+#Main-Container{
+display: flex;
+flex-flow: column;
+width:inherit;
+height:100%;
+align-content:stretch;
+}
+
+.Main-Contaier-div1{
+width:100%;
+height:80px;
+}
+
+li{
+display: inline-block;
+color:white;
+}
+
+.fa-cog, .fa-envelope ,.fa-search{
+color:white;
+}
+
+.Main-Contaier-div2{
+widows: 100%;
+height:250px;
+font-size:25px;
+color:white;
+padding-left:10px;
+}
+
+.Titulo-h1{
+margin:0px;
+}
+
+.POP-P, p{
+font-size:15px;
+padding: 0px;
+}
+
+button{
+border: 1px solid white;
+background-color: #ccc;
+color:white;
+border-radius: 20px;
+width: 60px;
+height:30px;
+cursor: pointer;
+}
+
+
+
+.Main-Contaier-div3{
+width:100%;
+height:250px;
+display: flex;
+flex-flow: row;
+justify-content: center;
+margin:30px 0px 0px 5px;
+}
+
+section{
+margin:5px;
+width:50%;
+height:200px;
+}
+
+.fa-heart-o{
+color:#ccc;
+}
+
+.Section-img{
+margin: auto;
+width:80%;
+height:100%;
+border-radius: 10px;
+cursor: pointer;
+}
